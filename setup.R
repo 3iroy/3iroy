@@ -1,0 +1,11 @@
+library(tidyverse)
+nba_season_stats = read_csv("data/nba_season_stats.csv", show_col_types = FALSE)
+
+nba_season_stats %>% 
+  filter(Team == "GSW") %>% 
+  filter(Player == "Stephen Curry") %>%
+  filter(Stat == "MIN") %>% 
+  ggplot() + 
+  aes(x = Season, y = Total, fill = Season) %>% 
+  geom_bar(stat = "identity") + 
+  theme_bw()
