@@ -1,10 +1,3 @@
-## Hi there 👋
-
-## Author
-
-- **Name:** Elroy Shi
-- **Email:** tianyis5@illinois.edu
-
 ## Purpose
 
 It is an application showing the basic stats of each NBA player for regular seasons from 1999 till 2020 using both bar plot and table. The bar plot can show the variation of one single basic stat of a single player through his career in one team, while the table shows all the basic stats for that player through his career in one team. Furthermore, if users want to look at average stats of any player, they are able to select the check box and view it in the table tab. 
